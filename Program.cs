@@ -83,6 +83,12 @@ namespace G_NET_9_OOP01
             //Q3 : Describe the steps to create and use a class library in Visual Studio.
             //======================================================================
 
+            // Step 1: Create a new Class Library in the solution scope
+            // Step 2: create as many classes as you want in it and define its fields and logic
+            // Step 3: to use it make sure class is public so it can be accessible in main
+            // Step 4: use 'Using ClassLibraryName;' at the top of the code file (in main) so that you can use the classes in it
+            // Step 5: take instances and use the classes as you would normally
+
 
             #endregion
 
