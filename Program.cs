@@ -68,6 +68,13 @@ namespace G_NET_9_OOP01
             //Q2 : Explain the difference between public and private access modifiers with an example.
             //======================================================================
 
+            // we made 2 new attributes in PointClass
+            // Z ==> Private
+            // W ==> Public
+
+            //PointClass pc1 = new PointClass(1, 2);
+            //pc1.Z = 10; // ERROR: class member is private and cannot be accessed in this class (main)
+            //pc1.W = 20; // no error: W can be accessed anywhere since it's public
 
             #endregion
 
